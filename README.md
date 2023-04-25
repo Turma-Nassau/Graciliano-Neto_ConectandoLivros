@@ -70,3 +70,35 @@ const Administrador = MySql.sequelize.define('administrador', {
     }
 } , { freezeTableName: true });
 ~~~~
+
+- Livros
+  - Estrutura referente aos livros armazenados na plataforma.
+ 
+ ~~~~MySql
+const Administrador = MySql.sequelize.define('administrador', {
+
+    titulo: {
+        type: MySql.Sequelize.STRING(30)
+    },
+
+    descricao: {
+        type: MySql.Sequelize.STRING(40)
+    },
+
+    autor: {
+        type: MySql.Sequelize.STRING(50)
+    },
+
+    editora: {
+        type: MySql.Sequelize.STRING(30)
+    },
+    
+    ano_publicacao: {
+        type: MySql.Sequelize.DATE
+    },
+    
+    edicao: {
+        type: MySql.Sequelize.STRING(30)
+    }
+} , { freezeTableName: true });
+~~~~

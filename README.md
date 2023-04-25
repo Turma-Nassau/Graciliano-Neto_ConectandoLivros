@@ -11,7 +11,7 @@
 * Desenvolver obras literárias.
 
 
-## :pushpin: Tecnologias utilizadas 
+## :pushpin: Tecnologias Utilizadas 
 **Front-end:** React, TailwindCSS
 
 **Back-end:** Node, Express, PostgreSQL
@@ -22,7 +22,7 @@
     <td align="center">
       <a href="https://github.com/Graciliano-Neto">
         <sub>
-          <b>GracilianoNeto</b>
+          <b>Graciliano Neto</b>
         </sub>
       </a>
     </td>
@@ -81,5 +81,5 @@ Livros {
 
 ```
 
-## :pushpin: Implementação futura
+## :pushpin: Implementação Futura
 * Projeto poderá conter algumas alterações de melhorias.

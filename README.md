@@ -20,8 +20,32 @@
 
  ### Estrutura de Dados
 - Cliente
-  - Deverá fazer cadastro de login.
+  - Deverá fazer cadastro de usuário/cliente.
   
+~~~~MySql
+const Administrador = MySql.sequelize.define('administrador', {
+
+    nome: {
+        type: MySql.Sequelize.STRING(30)
+    },
+
+    sobrenome: {
+        type: MySql.Sequelize.STRING(40)
+    },
+
+    email: {
+        type: MySql.Sequelize.STRING(50)
+    },
+
+    senha: {
+        type: MySql.Sequelize.STRING(30)
+    }
+} , { freezeTableName: true });
+~~~~
+
+- Desenvolvedor
+  - Deverá fazer cadastro de desenvolvedor/autor.
+
 ~~~~MySql
 const Administrador = MySql.sequelize.define('administrador', {
 

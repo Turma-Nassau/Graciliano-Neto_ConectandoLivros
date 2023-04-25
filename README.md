@@ -16,7 +16,7 @@
 
 **Back-end:** Node, Express, PostgreSQL
 
-## :handshake: Colaboradores :man_technologist:
+## :pushpin: Colaboradores 
 <table>
   <tr>
     <td align="center">
@@ -29,7 +29,7 @@
   </tr>
 </table>
 
- ## Estrutura de Dados
+ ## :pushpin: Estrutura de Dados
 - Cliente
   - Deverá fazer cadastro de usuário/cliente.
   
@@ -47,63 +47,29 @@ Usuario {
 - Desenvolvedor
   - Deverá fazer cadastro de desenvolvedor/autor.
 
-~~~~MySql
-const Administrador = MySql.sequelize.define('administrador', {
-
-    nome: {
-        type: MySql.Sequelize.STRING(30)
-    },
-
-    sobrenome: {
-        type: MySql.Sequelize.STRING(40)
-    },
-
-    email: {
-        type: MySql.Sequelize.STRING(50)
-    },
-
-    senha: {
-        type: MySql.Sequelize.STRING(30)
-    },
-    
-    desenvolvedor_id: {
-        type: MySql.Sequelize.INTEGER(4)
+```s
+Desenvolvedor {
+    desenvolvedor_id:8080 
+    nome_desenvolvedor:"Nome Desenvolvedor"
+    sobrenome_desenvolvedor:"Sobrenome Desenvolvedor"
+    email_desenvolvedor:"examplo@examplo.com"
+    senha:"123abc"
     }
-} , { freezeTableName: true });
-~~~~
+
+```
 
 - Livros
   - Estrutura referente aos livros armazenados na plataforma.
  
- ~~~~MySql
-const Administrador = MySql.sequelize.define('administrador', {
-
-    titulo: {
-        type: MySql.Sequelize.STRING(30)
-    },
-
-    descricao: {
-        type: MySql.Sequelize.STRING(40)
-    },
-
-    autor: {
-        type: MySql.Sequelize.STRING(50)
-    },
-
-    editora: {
-        type: MySql.Sequelize.STRING(30)
-    },
-    
-    ano_publicacao: {
-        type: MySql.Sequelize.DATE
-    },
-    
-    edicao: {
-        type: MySql.Sequelize.STRING(30)
-    },
-    
-    id_book: {
-       type: MySql.Sequelize.INTEGER(4)
+```s
+Livros {
+    titulo:"Titulo do Livro"
+    descricao:"Descrição do Livro"
+    autor:"Autor do Livro"
+    editora:="Editora do Livro"  
+    ano_publicacao:2023 
+    edicao:"Edição do Livro": 
+    id_book:07 
    }
-} , { freezeTableName: true });
-~~~~
+
+```

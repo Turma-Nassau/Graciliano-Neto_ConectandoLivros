@@ -22,7 +22,7 @@
     <td align="center">
       <a href="https://github.com/Graciliano-Neto">
         <sub>
-          <b>GaldiLuna</b>
+          <b>GracilianoNeto</b>
         </sub>
       </a>
     </td>

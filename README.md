@@ -33,6 +33,9 @@
 
 - [Figma](https://www.figma.com/file/afGQmgdNhhrzt15v4TWyqf/Planner-Financeiro?node-id=0%3A1&t=vc4LcWT1ifejr4em-1) In Progress
 
+![image](https://user-images.githubusercontent.com/116576105/234355103-15dec49a-3f7c-4bb7-a46d-3e1ee061b452.png)
+
+
  ## :pushpin: Estrutura de Dados
 - Cliente
   - Deverá fazer cadastro de usuário/cliente.

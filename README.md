@@ -63,6 +63,10 @@ const Administrador = MySql.sequelize.define('administrador', {
 
     senha: {
         type: MySql.Sequelize.STRING(30)
+    },
+    
+    user_id: {
+        type: MySql.Sequelize.INTEGER(4)
     }
 } , { freezeTableName: true });
 ~~~~

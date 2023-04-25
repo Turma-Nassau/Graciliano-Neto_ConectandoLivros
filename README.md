@@ -19,3 +19,24 @@
 
 
  ### Estrutura de Dados
+* Administrador
+~~~~MySql
+const Administrador = MySql.sequelize.define('administrador', {
+
+    nome: {
+        type: MySql.Sequelize.STRING(30)
+    },
+
+    sobrenome: {
+        type: MySql.Sequelize.STRING(40)
+    },
+
+    email: {
+        type: MySql.Sequelize.STRING(50)
+    },
+
+    senha: {
+        type: MySql.Sequelize.STRING(30)
+    }
+} , { freezeTableName: true });
+~~~~

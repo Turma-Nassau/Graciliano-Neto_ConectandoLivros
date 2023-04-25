@@ -6,6 +6,7 @@
 
 ## :pushpin: Funcionalidades 
 * Fazer donwload de livros.
+* Fazer Uploading de livros.
 * Comunidade integrada.
 * Desenvolver obras literárias.
 

@@ -33,29 +33,16 @@
 - Cliente
   - Deverá fazer cadastro de usuário/cliente.
   
-~~~~MySql
-const Administrador = MySql.sequelize.define('administrador', {
-
-    nome: {
-        type: MySql.Sequelize.STRING(30)
-    },
-
-    sobrenome: {
-        type: MySql.Sequelize.STRING(40)
-    },
-
-    email: {
-        type: MySql.Sequelize.STRING(50)
-    },
-
-    senha: {
-        type: MySql.Sequelize.STRING(30)
-    },
-    user_id: {
-        type: MySql.Sequelize.INTEGER(4)
+```s
+Usuario {
+    nome:"Nome Usuario"
+    sobrenome_user:"Sobrenome Usuario"
+    email:"examplo@examplo.com"
+    senha:"123abc"
+    user_id:01   
     }
-} , { freezeTableName: true });
-~~~~
+
+```
 
 - Desenvolvedor
   - Deverá fazer cadastro de desenvolvedor/autor.

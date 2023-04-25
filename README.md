@@ -16,6 +16,19 @@
 
 **Back-end:** Node, Express, PostgreSQL
 
+## :handshake: Colaboradores :man_technologist:
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Graciliano-Neto">
+        <sub>
+          <b>GaldiLuna</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
  ## Estrutura de Dados
 - Cliente
   - Deverá fazer cadastro de usuário/cliente.

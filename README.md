@@ -1,4 +1,4 @@
-<h1 align="center"> Conectando Livros </h1>
+<h1 align="center"> :books: Conectando Livros </h1>
 
 > Status: desenvolvimento ⚠️
 ## Objetivo

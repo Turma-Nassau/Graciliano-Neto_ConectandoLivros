@@ -19,7 +19,7 @@
 
 
  ### Estrutura de Dados
-* Cliente
+- Cliente
  - Deverá fazer cadastro de login.
 ~~~~MySql
 const Administrador = MySql.sequelize.define('administrador', {

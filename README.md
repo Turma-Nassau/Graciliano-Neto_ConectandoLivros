@@ -99,6 +99,10 @@ const Administrador = MySql.sequelize.define('administrador', {
     
     edicao: {
         type: MySql.Sequelize.STRING(30)
-    }
+    },
+    
+    id_book: {
+       type: MySql.Sequelize.INTEGER(4)
+   }
 } , { freezeTableName: true });
 ~~~~

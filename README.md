@@ -2,7 +2,7 @@
 
 > Status: desenvolvimento ⚠️
 ## :pushpin: Objetivo
-* O conectando livros é um aplicativo que tem a finalidade de aumentar a acessibilidade de leitores de qualquer gênero literário. Sendo capaz que seus usuários publiquem livros e criem comunidades para que possam discutir de forma crítica sobre as obras.
+* O conectando livros é uma aplicação que tem a finalidade de aumentar a acessibilidade de leitores de qualquer gênero literário. Sendo capaz que seus usuários publiquem livros e criem comunidades para que possam discutir de forma crítica sobre as obras.
 
 ## :pushpin: Funcionalidades 
 * Fazer donwload de livros.

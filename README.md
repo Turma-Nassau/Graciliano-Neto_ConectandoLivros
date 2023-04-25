@@ -80,3 +80,6 @@ Livros {
    }
 
 ```
+
+## :pushpin: Implementação futura
+* Projeto poderá conter algumas alterações de melhorias.
